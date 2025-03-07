@@ -3,7 +3,9 @@ agp = "8.8.2"
 coilCompose = "2.7.0"
 converterGson = "2.9.0"
 daggerCompiler = "2.48"
+daggerCompilerVersion = "2.0"
 hiltAndroid = "2.40.5"
+hiltAndroidCompiler = "2.51.1"
 hiltCompiler = "2.48"
 kotlin = "2.0.0"
 coreKtx = "1.15.0"
@@ -25,8 +27,13 @@ androidx-material3-adaptive-navigation-suite = { module = "androidx.compose.mate
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+dagger-android = { module = "com.google.dagger:dagger-android", version.ref = "daggerCompilerVersion" }
+dagger-android-processor = { module = "com.google.dagger:dagger-android-processor", version.ref = "daggerCompilerVersion" }
+dagger-android-support = { module = "com.google.dagger:dagger-android-support", version.ref = "daggerCompilerVersion" }
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "daggerCompiler" }
+dagger-compiler-v20 = { module = "com.google.dagger:dagger-compiler", version.ref = "daggerCompilerVersion" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
 hilt-compiler-v248 = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltCompiler" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
